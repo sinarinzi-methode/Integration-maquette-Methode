@@ -1,0 +1,69 @@
+.advert{
+  &-img{
+    max-width: 332px;
+  }
+
+}
+
+  .right-art-container{
+
+    max-width:value(width-sidebar);
+
+    // margin:auto;
+  }
+
+.troisPosts {
+  width:100%;
+  margin-bottom:2rem;
+  // display: grid;
+  // flex-wrap: wrap;
+  // grid-template-columns: auto auto;
+  // grid-gap: 3px;
+  // margin-left: 3%;
+  // padding: 5px;
+  //  width: 305px;
+  // min-height: 300px;
+  //  background-color: orangered;
+
+
+}
+.post{
+  width:100%;
+  margin-bottom: .5rem;
+  display:flex;
+  img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+  }
+}
+.post-description{
+  p{
+    font-size:.8rem;
+    font-family: font(title);
+    color:color(title);
+  }
+}
+
+.datee{
+  padding-left:1rem;
+  font-size:0.6rem;
+  color:color(text);
+  font-family:font(text);
+
+
+}
+hr{
+  max-width:value(width-container);
+  border: 1px solid color(text);
+  margin: 3rem auto;
+  /* background-color:#777777;*/
+}
+
+hr{
+  max-width:value(width-container);
+  border: 1px solid #777777;
+  margin: 3rem auto;
+
+}
+
